@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "npm run build && wrangler pages deploy dist --project-name hydro",
+    "deploy": "npm run build && wrangler deploy",
     "lint": "oxlint",
     "preview": "vite preview"
   },
@@ -31,6 +31,7 @@
     "postcss": "^8.5.28",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
-    "vite": "^8.2.2"
+    "vite": "^8.2.2",
+    "wrangler": "^4.129.1"
   }
 }
