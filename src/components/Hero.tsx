@@ -51,7 +51,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenOrderModal }) => {
   const activeData = tiers[activeTier];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-bio-dark">
+    <section id="home" className="relative min-h-screen flex items-center justify-center pt-24 pb-16 overflow-hidden bg-bio-dark">
       {/* Background Radial Glows */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,rgba(0,255,135,0.06)_0%,rgba(6,9,8,1)_70%)] pointer-events-none" />
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-160 h-160 bg-bio-green/5 rounded-full blur-[150px] pointer-events-none" />
