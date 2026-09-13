@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://hydro.farm/" />
+
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: data: blob: 'unsafe-inline'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' https: data:; connect-src 'self' https: wss:;" />
     
     <!-- Primary Meta Tags -->
@@ -12,22 +17,38 @@
     <meta name="description" content="HYDRO — Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable power, and hyper-pure precision photobiology harvest." />
     <meta name="theme-color" content="#060908" />
 
-    <!-- Open Graph / Facebook / WhatsApp -->
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hydro.farm/" />
+    <meta property="og:site_name" content="HYDRO" />
     <meta property="og:title" content="HYDRO — Grown Different | Hydroponic Vertical Farming" />
-    <meta property="og:description" content="Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable energy." />
-    <meta property="og:image" content="/hydro_emerald_butterhead_1788772893347.jpg" />
+    <meta property="og:description" content="Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable power, and hyper-pure precision photobiology harvest." />
+    <meta property="og:image" content="https://hydro.farm/hydro_emerald_butterhead_1788772893347.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hydro.farm/" />
     <meta property="twitter:title" content="HYDRO — Grown Different | Hydroponic Vertical Farming" />
-    <meta property="twitter:description" content="Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable energy." />
-    <meta property="twitter:image" content="/hydro_emerald_butterhead_1788772893347.jpg" />
+    <meta property="twitter:description" content="Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable power." />
+    <meta property="twitter:image" content="https://hydro.farm/hydro_emerald_butterhead_1788772893347.jpg" />
 
     <!-- Preconnect & Load Brand Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "HYDRO",
+      "url": "https://hydro.farm",
+      "logo": "https://hydro.farm/favicon.svg",
+      "description": "Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable power, and hyper-pure precision photobiology harvest.",
+      "knowsAbout": ["Hydroponics", "Vertical Farming", "Aeroponics", "Precision Agriculture"]
+    }
+    </script>
   </head>
   <body class="bg-bio-dark text-slate-100 antialiased selection:bg-bio-green/30 selection:text-bio-green">
     <div id="root"></div>

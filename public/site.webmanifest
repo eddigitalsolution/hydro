@@ -1,0 +1,17 @@
+{
+  "name": "HYDRO — Grown Different",
+  "short_name": "HYDRO",
+  "description": "Organic futuristic hydroponic vertical farming. Zero soil, 95% less water, 100% renewable power, and hyper-pure precision photobiology harvest.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060908",
+  "theme_color": "#060908",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

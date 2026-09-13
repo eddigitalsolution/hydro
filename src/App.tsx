@@ -19,29 +19,32 @@ export function App() {
       {/* Top Navbar */}
       <Navbar onOpenOrderModal={() => setIsOrderModalOpen(true)} />
 
-      {/* Hero Section */}
-      <Hero onOpenOrderModal={() => setIsOrderModalOpen(true)} />
+      {/* Main Content landmark for Lighthouse accessibility */}
+      <main id="main-content">
+        {/* Hero Section */}
+        <Hero onOpenOrderModal={() => setIsOrderModalOpen(true)} />
 
-      {/* Signature Interaction - Plant Growth Stage Controller */}
-      <PlantGrowthStage />
+        {/* Signature Interaction - Plant Growth Stage Controller */}
+        <PlantGrowthStage />
 
-      {/* Our Farm Section */}
-      <OurFarm />
+        {/* Our Farm Section */}
+        <OurFarm />
 
-      {/* Hydroponics Section - Water Flow Dynamics */}
-      <HydroponicsWaterFlow />
+        {/* Hydroponics Section - Water Flow Dynamics */}
+        <HydroponicsWaterFlow />
 
-      {/* Produce Section */}
-      <ProduceCatalog onOpenOrderModal={() => setIsOrderModalOpen(true)} />
+        {/* Produce Section */}
+        <ProduceCatalog onOpenOrderModal={() => setIsOrderModalOpen(true)} />
 
-      {/* Sustainability Section */}
-      <SustainabilityMetrics />
+        {/* Sustainability Section */}
+        <SustainabilityMetrics />
 
-      {/* Technology Section */}
-      <TechStackSection />
+        {/* Technology Section */}
+        <TechStackSection />
 
-      {/* Freshness Section */}
-      <FreshnessTimeline />
+        {/* Freshness Section */}
+        <FreshnessTimeline />
+      </main>
 
       {/* Order CTA Modal */}
       <OrderCTAModal

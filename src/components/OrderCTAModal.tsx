@@ -43,6 +43,7 @@ export const OrderCTAModal: React.FC<CTAProps> = ({ isOpen, onClose }) => {
 
         <button
           onClick={onClose}
+          aria-label="Close modal"
           className="absolute top-4 right-4 text-slate-400 hover:text-white font-mono text-xl p-2"
         >
           ✕
